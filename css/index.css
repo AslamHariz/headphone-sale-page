@@ -146,3 +146,71 @@ h5.nav-item.active-item {
   right: 220px;
   bottom: 10px;
 }
+
+@media screen and (max-width:1080px) {
+
+.intro-section{
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
+nav .nav-items{
+    display: none;
+}
+
+
+.discount-content{
+    top: 22.3%;
+    right: 37%;
+    font-size: 0.6rem;
+}
+
+.headphone-div .discount {
+    top: 21%;
+    right: 35%;
+} 
+
+.headphone-div img[alt="headphone"] {
+    top: 10%;
+}
+
+.right-section{
+    padding: 5% 0% 0% 30%;
+}
+
+.action-btns{
+    width: 100%;
+}
+
+.left-section h1{
+    font-family: "Fredoka One", cursive;
+}
+
+.left-section{
+    margin-left: 5%;
+}
+
+.text{
+    width: 120%;
+}
+
+.left-section{
+    margin-bottom: 10%;
+}
+
+.bottom button{
+    margin-top: 5%;
+}
+
+.dots{
+  top:30%;
+  right: 20%;
+}
+
+.right-section .action-btn {
+    margin-left: 30px;
+    margin-bottom: 70px;
+    position: relative;
+}  
+
+}
